@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eagle Sports | Sports Fields & Landscaping</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #07110d;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background:
+                linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.75)),
+                url("https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=1800&q=80")
+                center/cover;
+        }
+
+        .hero {
+            max-width: 900px;
+        }
+
+        .logo {
+            width: 120px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 58px;
+            letter-spacing: 4px;
+            margin-bottom: 15px;
+        }
+
+        .green {
+            color: #38c878;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #ddd;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 30px;
+            margin: 8px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            background: #38c878;
+            color: #06100b;
+            transition: .3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            background: white;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .title h2 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .title p {
+            color: #aaa;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #0d1b15;
+            padding: 35px 25px;
+            border-radius: 18px;
+            border: 1px solid #1b3b2a;
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #38c878;
+        }
+
+        .card h3 {
+            color: #38c878;
+            margin-bottom: 15px;
+            font-size: 23px;
+        }
+
+        .card p {
+            color: #bbb;
+        }
+
+        .about {
+            background: #0b1711;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-content p {
+            color: #ccc;
+            font-size: 18px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact-box {
+            max-width: 650px;
+            margin: auto;
+            background: #0d1b15;
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid #1b3b2a;
+        }
+
+        .contact-box p {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #040806;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 38px;
+            }
+
+            .hero p {
+                font-size: 17px;
+            }
+
+            section {
+                padding: 60px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="home">
+
+    <div class="hero">
+
+        <!-- Replace this URL with your Eagle Sports logo -->
+        <div style="font-size:80px;">🦅</div>
+
+        <h1>EAGLE <span class="green">SPORTS</span></h1>
+
+        <p>
+            Sports Fields Construction, Maintenance & Landscaping
+        </p>
+
+        <a href="#services" class="btn">OUR SERVICES</a>
+        <a href="#contact" class="btn">CONTACT US</a>
+
+    </div>
+
+</header>
+
+
+<section id="services">
+
+    <div class="title">
+        <h2>Our <span class="green">Services</span></h2>
+        <p>Professional solutions designed to build and maintain outstanding spaces.</p>
+    </div>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>⚽ Sports Fields</h3>
+            <p>
+                Construction and development of professional sports fields
+                with high-quality materials and professional standards.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎾 Padel Courts</h3>
+            <p>
+                Complete padel court construction, installation,
+                development and maintenance.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🔧 Maintenance</h3>
+            <p>
+                Professional maintenance and renovation services
+                to keep your sports facilities in excellent condition.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌿 Landscaping</h3>
+            <p>
+                Modern landscape design and outdoor development
+                for residential, commercial and sports spaces.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="about">
+
+    <div class="title">
+        <h2>Why <span class="green">Eagle Sports?</span></h2>
+    </div>
+
+    <div class="about-content">
+
+        <p>
+            At Eagle Sports, we combine engineering expertise,
+            professional consultation and skilled workmanship to
+            deliver high-quality sports facilities and outdoor spaces.
+        </p>
+
+        <br>
+
+        <p>
+            From construction and installation to maintenance and
+            landscaping, our goal is to create spaces that perform,
+            look exceptional and last.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+    <div class="title">
+        <h2>Let's Build Something <span class="green">Great</span></h2>
+        <p>Contact Eagle Sports for your next project.</p>
+    </div>
+
+    <div class="contact-box">
+
+        <p>📞 <strong>Phone:</strong> 01000000000</p>
+
+        <p>📧 <strong>Email:</strong> info@eaglesports.com</p>
+
+        <p>📍 <strong>Location:</strong> Egypt</p>
+
+        <br>
+
+        <a class="btn" href="tel:01000000000">
+            CALL US
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer>
+    © 2026 Eagle Sports. All Rights Reserved.
+</footer>
+
+</body>
+</html>
+
+
