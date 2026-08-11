@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Eagle Sports | Sports Fields & Landscaping</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#07100c;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:30px;
+    background:
+    linear-gradient(rgba(0,0,0,.62),rgba(0,0,0,.78)),
+    url("https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=2000&q=85")
+    center/cover;
+}
+
+.hero{
+    max-width:900px;
+}
+
+.eagle{
+    font-size:80px;
+    margin-bottom:10px;
+}
+
+.logo-name{
+    font-size:58px;
+    font-weight:bold;
+    letter-spacing:5px;
+}
+
+.green{
+    color:#35d078;
+}
+
+.tagline{
+    font-size:21px;
+    color:#ddd;
+    margin:20px 0 30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    margin:6px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    background:#35d078;
+    color:#061009;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    background:#fff;
+}
+
+.btn-dark{
+    background:transparent;
+    color:white;
+    border:1px solid #35d078;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.title h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.title p{
+    color:#aaa;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0d1b15;
+    border:1px solid #1c3929;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#35d078;
+}
+
+.card img{
+    width:100%;
+    height:210px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.card h3{
+    color:#35d078;
+    font-size:23px;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#bbb;
+}
+
+.about{
+    background:#0b1711;
+}
+
+.about-content{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.about-content p{
+    color:#ccc;
+    font-size:18px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.project{
+    position:relative;
+    height:280px;
+    overflow:hidden;
+    border-radius:18px;
+}
+
+.project img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.project:hover img{
+    transform:scale(1.08);
+}
+
+.project span{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px;
+    background:linear-gradient(transparent,rgba(0,0,0,.9));
+    font-size:20px;
+    font-weight:bold;
+}
+
+.contact{
+    text-align:center;
+    background:#07100c;
+}
+
+.contact-box{
+    max-width:650px;
+    margin:auto;
+    background:#0d1b15;
+    padding:40px;
+    border-radius:20px;
+    border:1px solid #1c3929;
+}
+
+.contact-box p{
+    margin:12px 0;
+    font-size:18px;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#030705;
+    color:#888;
+}
+
+@media(max-width:600px){
+    .logo-name{
+        font-size:38px;
+    }
+
+    .tagline{
+        font-size:17px;
+    }
+
+    .title h2{
+        font-size:32px;
+    }
+
+    section{
+        padding:60px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header id="home">
+    <div class="hero">
+
+        <div class="eagle">🦅</div>
+
+        <div class="logo-name">
+            EAGLE <span class="green">SPORTS</span>
+        </div>
+
+        <p class="tagline">
+            Sports Fields Construction • Maintenance • Landscaping
+        </p>
+
+        <a href="#services" class="btn">OUR SERVICES</a>
+        <a href="https://wa.me/201063093177" class="btn whatsapp">
+            WHATSAPP
+        </a>
+
+    </div>
+</header>
+
+
+<section id="services">
+
+    <div class="title">
+        <h2>Our <span class="green">Services</span></h2>
+        <p>Professional solutions for sports and outdoor spaces.</p>
+    </div>
+
+    <div class="services">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1556056504-5c7696c4c28d?auto=format&fit=crop&w=1000&q=85">
+            <div class="card-content">
+                <h3>⚽ Sports Fields</h3>
+                <p>
+                    Professional construction and development of football
+                    and multi-sport fields.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=1000&q=85">
+            <div class="card-content">
+                <h3>🎾 Padel Courts</h3>
+                <p>
+                    Complete padel court solutions including construction,
+                    installation and development.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1000&q=85">
+            <div class="card-content">
+                <h3>🔧 Maintenance</h3>
+                <p>
+                    Professional maintenance and renovation to keep your
+                    sports facilities performing at their best.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1000&q=85">
+            <div class="card-content">
+                <h3>🌿 Landscaping</h3>
+                <p>
+                    Modern landscape design and outdoor development for
+                    residential, commercial and sports spaces.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="about">
+
+    <div class="title">
+        <h2>Why <span class="green">Eagle Sports?</span></h2>
+    </div>
+
+    <div class="about-content">
+
+        <p>
+            Eagle Sports provides professional solutions for sports fields
+            and outdoor spaces, combining quality materials, skilled
+            workmanship and practical project planning.
+        </p>
+
+        <br>
+
+        <p>
+            From construction and installation to maintenance and
+            landscaping, we aim to create spaces that look exceptional,
+            perform efficiently and last.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <div class="title">
+        <h2>Our <span class="green">Vision</span></h2>
+        <p>Creating modern spaces where performance meets design.</p>
+    </div>
+
+    <div class="projects">
+
+        <div class="project">
+            <img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1200&q=85">
+            <span>Professional Sports Facilities</span>
+        </div>
+
+        <div class="project">
+            <img src="https://images.unsplash.com/photo-1600679472829-3044539ce8ed?auto=format&fit=crop&w=1200&q=85">
+            <span>Modern Outdoor Spaces</span>
+        </div>
+
+        <div class="project">
+            <img src="https://images.unsplash.com/photo-1558521958-0a228e77e984?auto=format&fit=crop&w=1200&q=85">
+            <span>Landscape & Green Areas</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+    <div class="title">
+        <h2>Let's Build Something <span class="green">Great</span></h2>
+        <p>Contact Eagle Sports for your next project.</p>
+    </div>
+
+    <div class="contact-box">
+
+        <p>📞 <strong>01063093177</strong></p>
+
+        <br>
+
+        <a class="btn" href="tel:01063093177">
+            CALL US
+        </a>
+
+        <a class="btn whatsapp"
+           href="https://wa.me/201063093177">
+            WHATSAPP
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer>
+    © 2026 Eagle Sports. All Rights Reserved.
+</footer>
+
+</body>
+  </html>
